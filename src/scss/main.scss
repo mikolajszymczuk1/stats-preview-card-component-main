@@ -1,3 +1,5 @@
-body {
-    background-color: azure;
-}
+// Base styles (reset project)
+@use "./utilities/base";
+
+// ------ Components ------
+@use "./components/stats-preview-card";
